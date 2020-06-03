@@ -1,0 +1,98 @@
+.index-page{
+  overflow: hidden;
+  .firstPane {
+    position: relative;
+    height: 100vh;
+    min-height: 900px;
+    width: 100%;
+    background:url('../../assets/bg@2x.png') no-repeat;
+    background-size: 100% 100%;
+    .header {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      top: 20px;
+      height: 50px;
+      width: 100%;
+      .logo {
+        width: 174px;
+        height: 100%;
+        background:url('../../assets/logo@2x.png') no-repeat center;
+        background-size: 100%, 100%;
+        position: absolute;
+        margin-left: 23.39%;
+        display: inline-block;
+      }
+      .navigation {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 61.77%;
+        width: 288px;
+        .index {
+          flex: 1;
+          line-height: 50px;
+          text-align: center;
+          font-size:16px;
+          font-family:PingFangSC-Medium,PingFang SC;
+          font-weight:500;
+          color:rgba(255,255,255,1);
+          cursor:pointer;
+        }
+        .line{
+            position: relative;
+        }
+        .line::after{
+          content: '';
+          width: 21px;
+          height: 2px;
+          background-color: white;
+          position: absolute;
+          left:50%;
+          transform: translateX(-50%);
+          bottom: 0;
+        }
+      }
+    }
+    .content1 {
+      position: absolute;
+      top: 42.33%;
+      left: 50%;
+      transform: translateX(-50%);
+      width:700px;
+      height:70px;
+      font-size:50px;
+      font-family:PingFangSC-Semibold,PingFang SC;
+      font-weight:600;
+      color:rgba(255,255,255,1);
+      line-height:70px;
+    }
+    .content2 {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 51.22%;
+      width:600px;
+      height:33px;
+      font-size:24px;
+      font-family:PingFangSC-Light,PingFang SC;
+      font-weight:300;
+      color:rgba(255,255,255,1);
+      line-height:33px;
+      text-align: center;
+    }
+     
+  .mouse {
+    width: 54px;
+    height: 54px;
+    background:url('../../assets/mouse@2x.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 80px;
+  }
+  }
+}
