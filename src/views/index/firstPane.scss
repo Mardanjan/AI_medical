@@ -5,7 +5,7 @@
     height: 100vh;
     min-height: 900px;
     width: 100%;
-    background:url('../../assets/bg@2x.png') no-repeat;
+    background:url('../../assets/indexpage.png') no-repeat;
     background-size: 100% 100%;
     .header {
       padding: 0;
@@ -17,7 +17,7 @@
       .logo {
         width: 174px;
         height: 100%;
-        background:url('../../assets/logo@2x.png') no-repeat center;
+        background:url('../../assets/logo2.png') no-repeat center;
         background-size: 100%, 100%;
         position: absolute;
         margin-left: 23.39%;
@@ -61,26 +61,27 @@
       top: 42.33%;
       left: 50%;
       transform: translateX(-50%);
-      width:700px;
-      height:70px;
-      font-size:50px;
-      font-family:PingFangSC-Semibold,PingFang SC;
-      font-weight:600;
+      width:727px;
+      height:110px;
+      font-size:42px;
+      font-family:ZhenyanGB;
+      font-weight:400;
       color:rgba(255,255,255,1);
-      line-height:70px;
+      line-height:69px;
+      text-align: center;
     }
     .content2 {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
       top: 51.22%;
-      width:600px;
-      height:33px;
-      font-size:24px;
-      font-family:PingFangSC-Light,PingFang SC;
-      font-weight:300;
+      width:410px;
+      height:45px;
+      font-size:48px;
+      font-family:Microsoft YaHei UI;
+      font-weight:bold;
       color:rgba(255,255,255,1);
-      line-height:33px;
+      line-height:45px;
       text-align: center;
     }
      

@@ -3,7 +3,7 @@ const IS_PROD = ["production", "prod"].includes(process.env.NODE_ENV)
 module.exports = {
     publicPath: '', // 相对于 HTML 页面（目录相同）
     devServer: {
-        open: true,
+        // open: true,
         port: 8066
     },
     // chainWebpack: config => {

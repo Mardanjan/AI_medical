@@ -1,232 +1,56 @@
 .about_index {
-    overflow: hidden;
-    height: 1890px;
-    min-width: 1030px;
-    position: relative;
-    .firstPane {
-        width: 100%;
-        // width: 100vh;
-        height: 900px;
-        position: relative;
-        .image {
-            width: 100%;
-            height: 550px;
-            background: url('../../assets/about-image.png') no-repeat;
-            background-size: 100% 100%;
-        }
-        .content {
-            display: flex;
-            justify-content: center;
-            position: relative;
-            .pane {
-                margin-left: 54px;
-                margin-right: 54px;
-                position: relative;
-                width: 270px;
-                .title {
-                    width:96px;
-                    height:52px;
-                    font-size:24px;
-                    font-family:PingFangSC-Medium,PingFang SC;
-                    font-weight:500;
-                    color:rgba(34,104,178,1);
-                    line-height:26px;
-                    text-align: center;
-                    position: absolute;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    top: 89px;
-                }
-                .title2 {
-                    width:72px;
-                    height:52px;
-                    font-size:24px;
-                    font-family:PingFangSC-Medium,PingFang SC;
-                    font-weight:500;
-                    color:rgba(34,104,178,1);
-                    line-height:26px;
-                    text-align: center;
-                    position: absolute;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    top: 89px;
-                }
-                .content2 {
-                    width:270px;
-                    height:25px;
-                    font-size:18px;
-                    font-family:PingFangSC-Regular,PingFang SC;
-                    font-weight:400;
-                    color:rgba(51,51,51,1);
-                    line-height:28px;
-                    
-                    position: absolute;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    top: 146px; 
-                }
-                .content {
-                    width:270px;
-                    height:56px;
-                    font-size:18px;
-                    font-family:PingFangSC-Regular,PingFang SC;
-                    font-weight:400;
-                    color:rgba(51,51,51,1);
-                    line-height:28px;
-                    text-align: center;
-                    position: absolute;
-                    top: 146px;
-                }
-                .content3 {
-                    width:234px;
-                    height:84px;
-                    font-size:18px;
-                    font-family:PingFangSC-Regular,PingFang SC;
-                    font-weight:400;
-                    color:rgba(51,51,51,1);
-                    line-height:28px;
-                    position: absolute;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    top: 146px;
-                }
-            }
-            .line {
-                // position: absolute;
-                // top: 89px;
-                margin-top: 89px;
-                width:1px;
-                height:130px;
-                background-color: rgba(50, 48, 60, 1);
-            }
-        }
-        
-    }
-    .secondPane {
-        height: 900px;
-        width: 100%;
-        background:rgba(50,48,60,1);
-        position: relative;
-        .seventhPane {
-            height: 100vh;
-            width: 100%;
-            background:rgba(50, 48, 60, 1);
-            position: relative;
-          }
-          .seventhPane-content1 {
-            position: absolute;
-            top: 56px;
-            left: 50%;
-            transform: translateX(-50%);
-            width:811px;
-            height:232px;
-            font-size:166px;
-            font-family:PingFangSC-Semibold,PingFang SC;
-            font-weight:600;
-            color:rgba(56,54,67,1);
-            line-height:232px;
-            display: flex;
-            justify-content: center;
-          }
-          .seventhPane-content2 {
-            width:816px;
-            height:132px;
-            font-size:48px;
-            font-family:FZLTZHK--GBK1-0,FZLTZHK--GBK1;
-            font-weight:normal;
-            color:rgba(255,255,255,1);
-            line-height:66px;
-            position: absolute;
-            top: 148px;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-          }
-          .seventhPane-phoneIcon {
-            width: 60px;
-            height: 60px;
-            background:url('../../assets/phone.png') no-repeat;
-            background-size: 100% 100%;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 34.67%;
-          }
-          .seventhPane-phoneNumber {
-            width: 100%;
-            height:51px;
-            font-size:37px;
-            font-family:FZLTZHK--GBK1-0,FZLTZHK--GBK1;
-            font-weight:normal;
-            color:rgba(255,255,255,1);
-            line-height:51px;
-            position: absolute;
-            top: 43.78%;
-            /* left: 50%;
-            transform: translateX(-50%); */
-            text-align: center;
-          }
-          .seventhPane-address {
-            width:381px;
-            height:52px;
-            font-size:16px;
-            font-family:PingFangSC-Regular,PingFang SC;
-            font-weight:400;
-            color:rgba(255,255,255,1);
-            line-height:26px;
-            text-align: center;
-            position: absolute;
-            top: 51.89%;
-            left: 50%;
-            transform: translateX(-50%);
-          }
-          .seventhPane-QRcodeBackgroundColor {
-            width:90px;
-            height:90px;
-            background:rgba(255,255,255,1);
-            position: absolute;
-            bottom: 224px;
-            left: 50%;
-            transform: translateX(-50%);
-            
-          }
-          .seventhPane-QRcode {
-            width:80px;
-            height:80px;
-            position: absolute;
-            z-index: 1;
-            background:url('../../assets/QRcode.jpg') no-repeat ;
-            background-size: 100% 100%;
-            margin: 5px;
-          }
-          .seventhPane-content3 {
-            width:182px;
-            height:20px;
-            font-size:14px;
-            font-family:PingFangSC-Regular,PingFang SC;
-            font-weight:400;
-            color:rgba(153,153,153,1);
-            line-height:20px;
-            position: absolute;
-            bottom: 194px;
-            left: 50%;
-            transform: translateX(-50%);
-          }
-          .seventhPane-copyRight {
-            width:457px;
-            height:16px;
-            font-size:12px;
-            font-family:FZLTXHK--GBK1-0,FZLTXHK--GBK1;
-            font-weight:normal;
-            color:rgba(213,213,213,1);
-            line-height:16px;
-            position: absolute;
-            bottom: 80px;
-            left: 50%;
-            transform: translateX(-50%);
-          }
+  position: relative;
+  .hezuoyiyuan {
+    width: 1247px;
+    height: 418px;
+    background-color: #07234a;
+    position: absolute;
+    left: 50%;
+    top: 106px;
+    transform: translateX(-50%);
+
+    .diandian1 {
+      width: 377px;
+      height: 147px;
+      background:url('../../assets/点阵.png') no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 37px;
+      left: 18px;
     }
 
+    .diandian2 {
+      position: absolute;
+      top: 261px;
+      right: 27px;
+      width: 377px;
+      height: 147px;
+      background:url('../../assets/点阵.png') no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  .ditu {
+    width: 1254px;
+    height: 1010px;
+    background-color: #667fc9;
+    position: absolute;
+    top: 573px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:url('../../assets/地图9.png') no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .yiyuantubiao {
+    width: 1222px;
+    height: 236px;
+    position: absolute;
+    top: 1616px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #667fc9;
+    margin-bottom: 32px;
+  }
 }
 
  
