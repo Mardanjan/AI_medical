@@ -2,8 +2,8 @@
   overflow: hidden;
   .firstPane {
     position: relative;
-    height: 100vh;
-    min-height: 900px;
+    height: 730;
+    min-height: 730px;
     width: 100%;
     background:url('../../assets/indexpage.png') no-repeat;
     background-size: 100% 100%;
@@ -58,10 +58,10 @@
     }
     .content1 {
       position: absolute;
-      top: 42.33%;
+      top: 32.33%;
       left: 50%;
       transform: translateX(-50%);
-      width:727px;
+      width:627px;
       height:110px;
       font-size:42px;
       font-family:ZhenyanGB;
@@ -74,8 +74,8 @@
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      top: 51.22%;
-      width:410px;
+      top: 61.22%;
+      width:550px;
       height:45px;
       font-size:48px;
       font-family:Microsoft YaHei UI;
