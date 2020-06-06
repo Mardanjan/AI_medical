@@ -36,6 +36,11 @@ const routes = [
     name: 'case',
     meta: { title: '案列' }
   },
+  {
+    path: '/hezuoyiyuan',
+    component: () => import('./views/hezuoyiyuan/index'),
+    meta: { title: '合作医院' }
+  }
 ]
 
 

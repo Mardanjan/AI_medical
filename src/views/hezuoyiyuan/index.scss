@@ -28,6 +28,16 @@
       background:url('../../assets/点阵.png') no-repeat;
       background-size: 100% 100%;
     }
+
+    .hezuoyiyuanzi {
+      width:326px;
+      height:143px;
+      background:url('../../assets/hezuoyiyuan.png') no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      left: 18px;
+      bottom: 19px;
+    }
   }
   .ditu {
     width: 1254px;
@@ -37,7 +47,7 @@
     top: 573px;
     left: 50%;
     transform: translateX(-50%);
-    // background:url('../../assets/地图9.png') no-repeat;
+    background:url('../../assets/鸡.png') no-repeat;
     background-size: 100% 100%;
   }
 
@@ -48,8 +58,27 @@
     top: 1616px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #667fc9;
     margin-bottom: 32px;
+    display: flex;
+    justify-content: space-around;
+
+    .xxyiyuan {
+      width: 363px;
+      height: 236px;
+      background:url('../../assets/avatar.png') no-repeat;
+      background-size: 100% 100%;
+      background-color: #ffffff;
+      border: 1px solid #bcbcbc;
+      border-radius: 5px;
+      position: relative;
+
+      .text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 30px;
+      }
+    }
   }
 }
 
