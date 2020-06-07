@@ -1,6 +1,39 @@
 .server_index {
     overflow: hidden;
-    height: 3493px;
-    width: 1895px;
-    background-color: #1e1e1e;
+
+    .first {
+        width: 100vw;
+        min-width: 900px;
+        height: 732px;
+        min-height: 732px;
+        background: url('../../assets/网页3.1.png');
+        background-size: 100% 100%;
+    }
+
+    .second {
+        width: 100vw;
+        min-width: 900px;
+        height: 962px;
+        min-height: 962px;
+        background: url('../../assets/网页3.2.png');
+        background-size: 100% 100%;
+    }
+
+    .thrid {
+        width: 100vw;
+        min-width: 900px;
+        height: 955px;
+        min-height: 955px;
+        background: url('../../assets/网页3.3.png');
+        background-size: 100% 100%;
+    }
+
+    .forth {
+        width: 100vw;
+        min-width: 900px;
+        height: 739px;
+        min-height: 739px;
+        background: url('../../assets/网页3.4.png');
+        background-size: 100% 100%;
+    }
 }

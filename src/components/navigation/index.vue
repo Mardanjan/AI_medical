@@ -4,10 +4,10 @@
         <div class="logo"></div>
         <div class="navigation">
             <div class="index" @click="handleJumpToIndex"><a>首页</a></div>
-            <div :class="arr[0]" @click="handleJumpToCase"><a>案例</a></div>
-            <div :class="arr[1]" @click="handleJumpToServer">服务 </div>
-            <div :class="arr[2]" @click="handleJumpToAbout">我们</div>
+            <div :class="arr[0]" @click="handleJumpToCase"><a>关于我们 </a></div>
+            <div :class="arr[1]" @click="handleJumpToServer">产品介绍 </div>
             <div :class="arr[3]" @click="handleJumpToHezuoyiyuan">合作医院</div>
+            <div :class="arr[2]" @click="handleJumpToAbout">媒体报道 </div>
         </div>
       </div>
     </div>

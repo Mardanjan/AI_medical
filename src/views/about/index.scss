@@ -1,56 +1,144 @@
 .about_index {
   position: relative;
-  .hezuoyiyuan {
-    width: 1247px;
-    height: 418px;
-    background-color: #07234a;
-    position: absolute;
-    left: 50%;
-    top: 106px;
-    transform: translateX(-50%);
+  
 
-    .diandian1 {
-      width: 377px;
-      height: 147px;
-      background:url('../../assets/点阵.png') no-repeat;
-      background-size: 100% 100%;
+  .meitibaodao {
+    position: relative;
+    height: 100vh;
+    // width: 100vw;
+    // background-color: aqua;
+
+    .content {
+      min-height: 743px;
+      height: 743px;
+      width: 1263px;
+      background-color: #f1f3f5;
       position: absolute;
-      top: 37px;
-      left: 18px;
-    }
+      left: 50%;
+      transform: translateX(-50%);
+      // background:url('../../assets/网页5.1.png') no-repeat;
+      // background-size: 100% 100%;
 
-    .diandian2 {
-      position: absolute;
-      top: 261px;
-      right: 27px;
-      width: 377px;
-      height: 147px;
-      background:url('../../assets/点阵.png') no-repeat;
-      background-size: 100% 100%;
+      .meiti {
+        width:195px;
+        height:84px;
+        background:url('../../assets/__ ◤媒体报道.png') no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 15px;
+        left: 30px;
+      }
+
+      .content1 {
+        width: 1144px;
+        height: 401px;
+        position: absolute;
+        bottom: 207px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: space-between;
+
+        .c1 {
+          width: 330px;
+          height: 401px;
+          background-color: #ffffff;
+
+          .icon {
+            width: 330px;
+            height: 154px;
+            background:url('../../assets/微信截图_20200607223042.png') no-repeat;
+            background-size: 100% 100%;
+          }
+
+          .head {
+            font-size:18px;
+            font-family:Microsoft YaHei UI;
+            font-weight:bold;
+            color:rgba(24,24,24,1);
+            line-height:24px;
+            text-align: center;
+            margin: 10px;
+          }
+          .body {
+            font-size:14px;
+            font-family:Microsoft YaHei UI;
+            font-weight:400;
+            color:rgba(120,120,120,1);
+            line-height:24px;
+            margin: 10px;
+          }
+          .foot {
+            margin: 10px;
+            font-size:14px;
+            font-family:Microsoft YaHei UI;
+            font-weight:400;
+            color:rgba(120,120,120,1);
+            line-height:24px;
+          }
+        }
+
+        .c2 {
+          width: 330px;
+          height: 401px;
+          background-color: #ffffff;
+
+          .icon {
+            width: 330px;
+            height: 218px;
+            background:url('../../assets/微信截图_20200607223026.png') no-repeat;
+            background-size: 100% 100%;
+            
+          }
+
+          .head {
+            font-size:18px;
+            font-family:Microsoft YaHei UI;
+            font-weight:bold;
+            color:rgba(2,2,2,1);
+            line-height:24px;
+            text-align: center;
+            margin: 10px;
+          }
+
+          .body {
+            font-size:14px;
+            font-family:Microsoft YaHei UI;
+            font-weight:400;
+            color:rgba(131,131,131,1);
+            line-height:24px;
+            text-align: center;
+            margin: 10px;
+          }
+        }
+
+        .c3 {
+          width: 330px;
+          height: 401px;
+          background-color: #ffffff;
+          position: relative;
+          
+          .icon {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 35px;
+            width: 306px;
+            height: 39px;
+            background:url('../../assets/fangkuangs.png') no-repeat;
+            background-size: 100% 100%;
+
+          }
+        }
+      }
     }
   }
-  .ditu {
-    width: 1254px;
-    height: 1010px;
-    background-color: #667fc9;
-    position: absolute;
-    top: 573px;
-    left: 50%;
-    transform: translateX(-50%);
-    // background:url('../../assets/地图9.png') no-repeat;
-    background-size: 100% 100%;
+
+  .bottom {
+    height: 64px;
+    background-color: #ffffff;
   }
 
-  .yiyuantubiao {
-    width: 1222px;
-    height: 236px;
-    position: absolute;
-    top: 1616px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #667fc9;
-    margin-bottom: 32px;
-  }
 }
 
  
