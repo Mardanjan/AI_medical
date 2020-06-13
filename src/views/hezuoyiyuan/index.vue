@@ -13,13 +13,16 @@
 
     <div class="yiyuantubiao">
         <div class="xxyiyuan">
-          <div class="text">南山医院</div>
+          <div class="icon1"></div>
+          <div class="text">深圳市南山医院</div>
         </div>
         <div class="xxyiyuan">
-          <div class="text">南山医院</div>
+          <div class="icon2"></div>
+          <div class="text">潮州市人民医院</div>
         </div>
         <div class="xxyiyuan">
-          <div class="text">南山医院</div>
+          <div class="icon3"></div>
+          <div class="text">辽宁省解放军第三一三医院</div>
         </div>
     </div>
   </div>

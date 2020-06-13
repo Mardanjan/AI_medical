@@ -1,7 +1,6 @@
 <template>
   <div class="server_index">
     <Nave :arr="arr"></Nave>
-    
     <div class="first"></div>
     <div class="second"></div>
     <div class="thrid"></div>

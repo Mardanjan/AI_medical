@@ -16,6 +16,8 @@
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 15px;
       // background:url('../../assets/网页5.1.png') no-repeat;
       // background-size: 100% 100%;
 
@@ -45,9 +47,16 @@
           background-color: #ffffff;
 
           .icon {
+            border-radius: 2px;
             width: 330px;
             height: 154px;
-            background:url('../../assets/微信截图_20200607223042.png') no-repeat;
+            background-color: #98bfe7;
+            color: #141311;
+            line-height: 154px;
+            font-weight: 500;
+            font-size: 40px;
+            text-align: center;
+            background:url('../../assets/微信图片_20200613203908.jpg') no-repeat;
             background-size: 100% 100%;
           }
 
@@ -57,8 +66,8 @@
             font-weight:bold;
             color:rgba(24,24,24,1);
             line-height:24px;
-            text-align: center;
-            margin: 10px;
+            margin-top: 10px;
+            padding: 10px;
           }
           .body {
             font-size:14px;
@@ -88,17 +97,18 @@
             height: 218px;
             background:url('../../assets/微信截图_20200607223026.png') no-repeat;
             background-size: 100% 100%;
+            border-radius: 2px;
             
           }
 
           .head {
-            font-size:18px;
+            font-size:20px;
             font-family:Microsoft YaHei UI;
             font-weight:bold;
             color:rgba(2,2,2,1);
-            line-height:24px;
-            text-align: center;
-            margin: 10px;
+            line-height:22px;
+            margin-top: 10px;
+            padding: 10px;
           }
 
           .body {
@@ -107,7 +117,6 @@
             font-weight:400;
             color:rgba(131,131,131,1);
             line-height:24px;
-            text-align: center;
             margin: 10px;
           }
         }

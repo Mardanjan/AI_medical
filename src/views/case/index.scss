@@ -1,395 +1,183 @@
 .case_index {
     position: relative;
-    height:1166px;
-    min-width: 1030px;
-    overflow: hidden;
-    .content {
-        width: 100%;
-        height: 1030px;
-        background:rgba(255,255,255,1);
-        position: relative;
-        // background: url('../../assets/case-bg.png') center no-repeat;
-        // background-size: 100% 100%;
-        .content1 {
-            width:852px;
-            height:232px;
-            font-size:166px;
-            font-family:PingFangSC-Semibold,PingFang SC;
-            font-weight:600;
-            color:rgba(246,246,246,1);
-            line-height:232px;
-            position: absolute;
-            top: 41px ;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .content2 {
-            width:962px;
-            height:132px;
-            font-size:48px;
-            font-family:FZLTZHK--GBK1-0,FZLTZHK--GBK1;
-            font-weight:normal;
-            color:rgba(34,104,178,1);
-            line-height:66px;
-            position: relative;
-            top: 113px ;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-        }
-        .pane1 {
-            width: 100%;
-            height: 235px;
-            position: absolute;
-            top:  (29.03%);
-            display: flex;
-            justify-content: center;
-            // 北大
-            .pane1-image1 {
-                // cursor: pointer;
-                width:333px;
-                height:235px;
-                background: url('../../assets/北京大学.png') center no-repeat;
-                background-size: 100% 100%;
-                margin-left: 7px;
-                margin-right: 7px;
-            }
-            // 复旦
-            .pane1-image2 {
-                // cursor: pointer;
-                width:333px;
-                height:235px;
-                background: url('../../assets/pan1-image2.png') center no-repeat;
-                background-size: 100% 100%;
-                margin-left: 7px;
-                margin-right: 7px;
-            }
-            // 金融超市
-            .pane1-image3 {
-                // cursor: pointer;
-                width:333px;
-                height:235px;
-                background: url('../../assets/pane1-image3.png') center no-repeat;
-                background-size: 100% 100%;
-                margin-left: 7px;
-                margin-right: 7px;
-            }
-        }
-        .pane2 {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            height: 236px ;
-            position: absolute;
-            top: 53.02%;
-            // 侨信
-            .pane2-image1 {
-                // cursor: pointer;
-                width:333px;
-                height:235px;
-                background: url('../../assets/侨信2.png') center no-repeat;
-                background-size: 100% 100%;
-                margin-left: 7px;
-                margin-right: 7px;
-            }
-            // 如吻
-            .pane2-image2 {
-                // cursor: pointer;
-                width:333px;
-                height:235px;
-                background: url('../../assets/KISSY.png') center no-repeat;
-                background-size: 100% 100%;
-                margin-left: 7px;
-                margin-right: 7px;
-            }
-            // zealer
-            .pane2-image3 {
-                // cursor: pointer;
-                width:333px;
-                height:235px;
-                background: url('../../assets/pane1-image.png') center no-repeat;
-                background-size: 100% 100%;
-                margin-left: 7px;
-                margin-right: 7px;
-            }
-        }
-        .moreCline {
-            width:181px;
-            height:20px;
-            font-size:14px;
-            font-family:PingFangSC-Regular,PingFang SC;
-            font-weight:400;
-            color:rgba(153,153,153,1);
-            line-height:20px;
-            position: absolute;
-            bottom: 164px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .connectUs {
-            cursor: pointer;
-            width:160px;
-            height:46px;
-            background:rgba(31,160,132,1);
-            position: absolute;
-            // bottom: 93px;
-            top: 86.5%;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-            line-height: 46px;
-            font-size:16px;
-            font-family:PingFangSC-Medium,PingFang SC;
-            font-weight:500;
-            color:rgba(255,255,255,1);
-        }
-        
-    }
-    
-    .copyRight {
-        height: 146px;
-        width: 100%;
-        background-color: rgba(255,255,255,1);
-        position: relative;
-        bottom: 77px;
-        .copyRightText {
-            width:457px;
-            height:16px;
-            font-size:12px;
-            font-family:FZLTXHK--GBK1-0,FZLTXHK--GBK1;
-            font-weight:normal;
-            color:rgba(153,153,153,1);
-            // line-height:146px;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: 77px;
-        }
-    }
-    .anlie1 {
-        width: 720px;
-        height: 906px;
-        // background-color: red;
+    .aboutus {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        height: 442px;
+        width: 1200px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 91px;
-        .image {
-            width:720px;
-            height:509px;
-            background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
-            opacity:0.63;
+        background: url('../../assets/网页2.png');
+        background-size: 100%, 100%;
+        
+        .connectus {
+            width: 483px;
+            height: 157px;
+            background: url('../../assets/网页2.1about us.png');
+            background-size: 100%, 100%;
+            position: absolute;
+            bottom: 30px;
+            left: 20px;
+        }
+
+        .aboutuszi {
+            font-style: italic;
+            font-size: 88px;
+            font-weight: 500;
+            color: #ffffff;
+            position: absolute;
+            bottom: 30px;
+            left: 20px;
         }
     }
-    .dialog {
-        position: relative;
-        .pane1 {
-            width: 720px;
-            height: 509px;
-            background: url('../../assets/ZEALER.png') no-repeat;
-            background-size: 100% 100%;
-            position: relative;
-            z-index: 55;
+
+    .gongsijieshao {
+        height: 502px;
+        width: 1200px;
+        background:rgba(246,246,246,1);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 602px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        hr {
+            width:647px;
+            height:9px;
+            background-color: #322f64;
+            border-radius: 15px;
         }
-        .pane2 {
-            width: 720px;
-            height: 509px;
-            background: url('../../assets/复旦.png') no-repeat;
-            background-size: 100% 100%;
-            position: relative;
-            z-index: 55;
+
+        h2 {
+            padding-left: 20px;
+            height:47px;
+            font-size:48px;
+            font-family:Microsoft YaHei UI;
+            font-weight:400;
+            color:rgba(0,0,0,1);
+            line-height:82px;
+            margin-bottom: 30px;
         }
-        .pane3 {
-            width: 720px;
-            height: 509px;
-            background: url('../../assets/金融超市.png') no-repeat;
-            background-size: 100% 100%;
-            position: relative;
-            z-index: 55;
+
+        p{
+            text-indent:2em;
+            margin-top: 30px;
+            padding-left: 10px;
+            font-size:24px;
+            font-family:Microsoft YaHei UI;
+            font-weight:400;
+            color:rgba(80,80,80,1);
+            line-height:44px;
         }
-        .pane4 {
-            width: 720px;
-            height: 509px;
-            background: url('../../assets/印答.png') no-repeat;
-            background-size: 100% 100%;
-            position: relative;
-            z-index: 55;
-        }
-        .pane5 {
-            width: 720px;
-            height: 509px;
-            background: url('../../assets/缔悦.png') no-repeat;
-            background-size: 100% 100%;
-            position: relative;
-            z-index: 55;
-        }
-        .pane6 {
-            width: 720px;
-            height: 509px;
-            background: url('../../assets/侨信2.png') no-repeat;
-            background-size: 100% 100%;
-            position: relative;
-            z-index: 55;
-        }
-        .closeBottomContainer {
-            z-index: 66;
-            cursor: pointer;
-            width: 38px;
-            height: 38px;
-            // background: url('../../assets/closeBottom.png');
-            background-size: 100% 100%;
+    }
+
+    .connectus1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        height: 442px;
+        width: 1200px;
+        background-color: aqua;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: url('../../assets/网页2.png');
+        background-size: 100%, 100%;
+        top: 1170px;
+        margin-bottom: 30px;
+
+        .lianxiwomen {
+            font-style: italic;
+            font-size: 88px;
+            font-weight: 500;
+            color: #ffffff;
             position: absolute;
-            right: 10px;
-            top: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .closeBottom {
-                z-index: 77;
-                background: url('../../assets/closeBottom.png') no-repeat center;
-                background-size: 100% 100%;
-                width: 20px;
-                height: 20px;
-            }
+            bottom: 30px;
+            left: 20px;
         }
-        .container {
-            height: 397px;
-            width: 720px;
-            font-size: 14px;
-            color: rgba(51, 51, 51, 1);
-            text-align: justify;
-            line-height: 26px;
-            position: relative;
-            background-color: rgba(255, 255, 255, 1);
-            .content {
-                width: 660px;
-                height: 298px;
-                position: absolute;
-                left: 50%;
-                transform: translateX(-50%);
-                top: 33px;
-                .title1 {
-                    vertical-align: baseline;
-                    font-size: 16px;
-                    color: rgba(51, 51, 51, 1);
-                    text-align: justify;
-                    line-height: 26px;
-                }
-                .title2 {
-                    // position: relative;
-                    // top: 26px;
-                    vertical-align: baseline;
-                    font-size: 16px;
-                    color: rgba(51, 51, 51, 1);
-                    text-align: justify;
-                    line-height: 26px;
-                }
-                .content3 {
-                    position: relative;
-                    top: 26px;
-                }
+
+        h2 {
+            padding-left: 20px;
+            position: absolute;
+            top: 470px;
+            height:47px;
+            font-size:48px;
+            font-family:Microsoft YaHei UI;
+            font-weight:400;
+            color:rgba(0,0,0,1);
+            line-height:82px;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            position: absolute;
+            top: 550px;
+            width:647px;
+            height:9px;
+            background-color: #322f64;
+            border-radius: 15px;
+        }
+
+        .dibu {
+            position: absolute;
+            top: 590px;
+            width: 1200px;
+            height:240px;
+            margin-bottom: 172px;
+        }
+        .fangkuai {
+            height: 240px;
+            display: inline-block;
+            width: 520px;
+            // border: 1px solid black;
+            // margin: 20px;
+            border-radius: 15px;
+            background-color: #f6f6f6;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            font-weight: 400;
+            color: #999AAA;
+
+            b {
+                display: inline-block;
+                width: 130px;
+            }
+
+            .name {
+                font-size:30px;
+                font-family:Microsoft YaHei UI;
+                font-weight:400;
+                color:rgba(102,102,102,1);
+                line-height:82px;
+                padding-left: 10px;
+                text-align: center;
+            }
+
+            .email {
+                height:26px;
+                // text-align: center;
+                padding-left: 40px;
+                font-size: 18px;
+                line-height: 52px;
+                margin-top: 10px;
+            }
+
+            .phone {
+                font-size: 18px;
+                line-height: 52px;
+                padding-left: 40px;
+                margin-top: 10px;
             }
             
         }
-    }
 
-    .connectUs {
-        z-index: 66;
-        width: 715px;
-        height: 533px;
-        background:rgba(255,255,255,1);
-        background-size: 100% 100%;
-        border-radius:3px;
-        position: relative;
-
-        .closeBottom {
-            width: 38px;
-            height: 38px;    
-            position: absolute;
-            top: 22px;
-            right: 22px;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .closeIcon {
-                z-index: 77;
-                background: url('../../assets/closeIconBlack.png') no-repeat center;
-                background-size: 100% 100%;
-                width: 20px;
-                height: 20px;
-            }
+        .left {
+            float: left;
         }
 
-        .phoneIcon {
-            z-index: 77;
-            background: url('../../assets/phoneIcon2.png') no-repeat center;
-            background-size: 100% 100%;
-            width: 61px;
-            height: 60px;
-            position: absolute;
-            top: 65px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .phoneNumber {
-            width:323px;
-            height:51px;
-            font-size:37px;
-            font-family:FZLTZHK--GBK1-0,FZLTZHK--GBK1;
-            font-weight:normal;
-            color:rgba(50,48,60,1);
-            line-height:51px;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 147px;
-        }
-        .address {
-            width:381px;
-            height:52px;
-            font-size:16px;
-            font-family:PingFangSC-Regular,PingFang SC;
-            font-weight:400;
-            color:rgba(136,136,136,1);
-            line-height:26px;
-            position: absolute;
-            top: 220px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .QRcodeContainer {
-            width:90px;
-            height:90px;
-            background:rgba(255,255,255,1);
-            position: absolute;
-            top: 339px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .QRimage {
-                width:80px;
-                height:80px;
-                background: url('../../assets/QRcode.jpg') no-repeat;
-                background-size: 100% 100%;
-            }
-        }
-        .content {
-            width:182px;
-            height:20px;
-            font-size:14px;
-            font-family:PingFangSC-Regular,PingFang SC;
-            font-weight:400;
-            color:rgba(153,153,153,1);
-            line-height:20px;
-            position: absolute;
-            top: 439px;
-            left: 50%;
-            transform: translateX(-50%);
+        .right {
+            float: right;
         }
     }
-    
 }

@@ -1,6 +1,39 @@
 <template>
   <div class="case_index">
     <Nave :arr="arr"></Nave>
+    <div class="aboutus">
+      <!-- <div class="connectus"></div> -->
+      <div class="aboutuszi"> ABOUT US</div>
+    </div>
+    <div class="gongsijieshao">
+      <h2>公司介绍</h2>
+      <hr>
+      <p>AI轻医疗结合医疗和人工智能、大数据技术优势，以病人为中心，关注膀胱癌的预防、诊断、治疗和复诊
+的全过程。辅助医生处理大量的放射性影像以及病理性影像信息，能够在一定程度上减轻医师的工作量和
+压力。</p>
+      <p>致力于推动医疗公平，应用于分级治疗。对于乡村和社区医院，医生相对缺乏经验，因此膀胱癌的智能诊
+断，能给小医院提供一个重要的参考意见。</p>
+      <p>为了加强膀胱癌的预防，AI轻医疗也应用于体检机构，能够使病人提前筛查、提前治疗。针对膀胱癌复发
+率高的特点，产品还提供电子病历的功能，方便医生查询患者的就诊信息。</p>
+    </div>
+    <div class="connectus1">
+      <div class="lianxiwomen">CONTACT US</div>
+      <h2>联系我们</h2>
+      <hr>
+      <div class="dibu">
+        <div class="fangkuai left">
+          <p class="name">AI轻医疗 版权所有</p>
+          <p class="email" style="font-size: 16px;">Copyright ©2020 www.kujijiku.com, All Rights Reserved.</p>
+        </div>
+        <div class="fangkuai right">
+          <p class="name">商务合作</p>
+          <p class="email"><b>系统咨询电话：</b>0755-123456</p>
+          <p class="email"> <b>联系电话：</b>13433701733</p>
+          <p class="email"> <b>邮件咨询：</b>994089500@qq.com</p>
+          <!-- <p class="email">邮件咨询：994089500@qq.com</p> -->
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

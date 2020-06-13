@@ -1,6 +1,8 @@
 .about_index {
   position: relative;
   .hezuoyiyuan {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
     width: 1247px;
     height: 418px;
     background-color: #07234a;
@@ -40,6 +42,8 @@
     }
   }
   .ditu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
     width: 1254px;
     height: 1010px;
     background-color: #667fc9;
@@ -52,8 +56,10 @@
   }
 
   .yiyuantubiao {
-    width: 1222px;
-    height: 236px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    width: 1254px;
+    height: 350px;
     position: absolute;
     top: 1616px;
     left: 50%;
@@ -65,18 +71,55 @@
     .xxyiyuan {
       width: 363px;
       height: 236px;
-      background:url('../../assets/avatar.png') no-repeat;
-      background-size: 100% 100%;
       background-color: #ffffff;
       border: 1px solid #bcbcbc;
       border-radius: 5px;
       position: relative;
+      margin-top: 50px;
+
+      .icon1 {
+        width: 128px;
+        height: 128px;
+        background-color: aqua;
+        background:url('../../assets/微信图片_20200613210012.jpg') no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .icon2 {
+        width: 128px;
+        height: 128px;
+        background-color: aqua;
+        background:url('../../assets/微信图片_20200613210016.png') no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .icon3 {
+        width: 128px;
+        height: 128px;
+        background-color: aqua;
+        background:url('../../assets/微信图片_20200613210023.png') no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
 
       .text {
+        font-family: Microsoft YaHei UI;
+        font-weight: 400;
+        color: #787878;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         bottom: 30px;
+        font-size: 22px;
+        text-align: center;
       }
     }
   }
