@@ -1,0 +1,138 @@
+.login-page {
+    position: relative;
+    min-width: 1200px;
+    .head {
+        height: 130px;
+        background-color: #ffffff;
+    }
+
+    .content {
+        position: relative;
+        height: 730px;
+        min-width: 1200px;
+        background-color: #072145;
+        display: flex;
+        justify-content: center;
+
+        .left {
+            background-color: #072145;
+            flex: 1;
+            height: 730px;
+            position: relative;
+
+            .c1 {
+                width: 670px;
+                margin-top: 420px;
+                margin-left: 273px;
+                font-size:45px;
+                font-family:ZhenyanGB;
+                font-weight:400;
+                color:rgba(254,254,254,1);
+                line-height:83px;
+                height: 83px;
+            }
+
+            .c2 {
+                width: 670px;
+                margin-left: 273px;
+                font-size:45px;
+                font-family:ZhenyanGB;
+                font-weight:400;
+                color:rgba(254,254,254,1);
+                line-height:83px;
+                height: 83px;
+            }
+
+            .c3 {
+                width: 670px;
+                margin-left: 273px;
+                font-size:26px;
+                font-family:Microsoft YaHei UI;
+                font-weight:400;
+                color:rgba(255,255,255,1);
+                line-height:83px;
+                height: 83px;
+            }
+        }
+
+        .right {
+            flex: 1;
+            position: relative;
+            .login {
+                position: absolute;
+                right: 264px;
+                top: 70px;
+                width: 482px;
+                height: 608px;
+                background-color: #ffffff;
+                border-radius: 10px;
+
+                .denglu {
+                    font-size:48px;
+                    font-family:Microsoft YaHei UI;
+                    font-weight:bold;
+                    color:rgba(8,34,71,1);
+                    line-height:83px;
+                    text-align: center;
+                }
+
+                .zhanghao {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 76px;
+                    display: block;
+                    height: 32px;
+                    width: 288px;
+                    background-color: #ffffff;
+                    border: none;
+                    border-bottom: 2px solid #808080;
+                }
+
+                .mima {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 76px;
+                    display: block;
+                    height: 32px;
+                    width: 288px;
+                    background-color: #ffffff;
+                    border: none;
+                    border-bottom: 2px solid #808080;
+                }
+
+                .button {
+                    display: block;
+                    width:182px;
+                    height:51px;
+                    background:rgba(16,52,99,1);
+                    margin-top: 76px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    font-size:36px;
+                    font-family:Microsoft YaHei UI;
+                    font-weight:bold;
+                    color:rgba(255,255,255,1);
+                    line-height:83px;
+                    text-align: center;
+                    line-height: 51px;
+                }
+
+                .zhuce {
+                    font-size:20px;
+                    font-family:Microsoft YaHei UI;
+                    font-weight:400;
+                    text-decoration:underline;
+                    color:rgba(101,101,101,1);
+                    line-height:83px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .foot {
+        height: 130px;
+        background-color: #ffffff;
+    }
+}

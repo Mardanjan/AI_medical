@@ -40,7 +40,10 @@ const routes = [
     path: '/hezuoyiyuan',
     component: () => import('./views/hezuoyiyuan/index'),
     meta: { title: '合作医院' }
-  }
+  }, {
+    path: '/login', component: () => import('./views/system/login')
+  },
+  {path: '/register', component: () => import('./views/system/zhuce')}
 ]
 
 

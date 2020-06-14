@@ -1,0 +1,65 @@
+.zhuce-page {
+    height: 100vh;
+    background-color: cadetblue;
+    position: relative;
+
+    .head {
+        position: relative;
+        top: 66px;
+        margin-bottom: 65px;
+        font-size:34px;
+        font-family:Microsoft YaHei UI;
+        font-weight:bold;
+        color:rgba(127,127,127,1);
+        line-height:136px;
+        text-align: center;
+    }
+    
+    .content {
+        display: flex;
+        height: 700px;
+
+        .left {
+            flex: 1;
+            background-color: chartreuse;
+            min-width: 439;
+
+            .content {
+                width: 559px;
+                height: 365px;
+
+                .zhanghao {
+                    // display: block;
+                    width: 439px;
+                    height: 30px;
+                }
+
+                .mima {
+                    // display: block;
+                    width: 439px;
+                    height: 30px;
+                }
+
+                .chongfumima {
+                    // display: block;
+                    width: 439px;
+                    height: 30px;
+                }
+            }
+        }
+
+        .right {
+            flex: 1;
+            background-color: coral;
+            min-width: 560px;
+            text-align: center;
+
+            .content {
+                display: inline-block;
+                width: 559px;
+                height: 365px;
+                background-color: #072145;
+            }
+        }
+    }
+}
