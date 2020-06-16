@@ -43,7 +43,8 @@ const routes = [
   }, {
     path: '/login', component: () => import('./views/system/login')
   },
-  {path: '/register', component: () => import('./views/system/zhuce')}
+  {path: '/register', component: () => import('./views/system/zhuce')},
+  {path: '/bingli' , component: ()=> import('./views/bingli/bingli.vue')}
 ]
 
 
