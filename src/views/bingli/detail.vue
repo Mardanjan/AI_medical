@@ -19,36 +19,13 @@
 <script>
 
 export default {
-  data: () => {
-    return {
-      radio1: false,
-      radio2: false
-    }
+
   },
   created() {
     // console.log('jquery')
   },
   methods: {
-   submit() {
-     this.$router.push({path: '/login'})
-   },
-   uploadfile () {
-       document.querySelector('.upload').click()
-   },
-   start () {
-       let img = document.querySelector('.upload')
-       var imgFile = new FileReader()
-       if (img.files.length <= 0) {
-           alert('请上传图片')
-           return
-       }
-       console.log(img.files)
-       imgFile.readAsDataURL(img.files[0])
-       imgFile.onload = function () {
-           var imgData = this.result
-           console.log(imgData)
-       }
-   }
+ 
   }
 }
 </script>
