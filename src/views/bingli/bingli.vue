@@ -1,5 +1,5 @@
 <template>
-  <div class="fenxi-page">
+  <div class="bingli-page">
     <div class="head">
       <div class="nav-bar"><p>数据中心</p><p>数据中心</p></div>
     </div>
