@@ -1,29 +1,20 @@
 <template>
   <div class="fenxi-page">
     <div class="head">
-        <div class="active div" >临床检测</div>
-        <div class="active div"> 病理检测</div>
+      <div class="nav-bar"><p>数据中心</p><p>数据中心</p></div>
     </div>
+    <div class="title"><p>-电子病历-</p></div>
     <div class="content">
-        <div class="left">
-          <div class="button" @click="uploadfile"></div>
-         
+      <input type="text"/><br/>
+      <div class="table_area">
+        <div class="table">
+          <div class="line"><p>张三</p><p>病历号：xxxxx</p></div>
+          <div class="line"><p>张三</p><p>病历号：xxxxx</p></div>
         </div>
-        <div class="right">
-          <div class="head">
-            检测类型：
-          <el-radio v-model="radio1" label="1" border>备选项1</el-radio>
-          <el-radio v-model="radio1" label="2" border>备选项2</el-radio>
-        </div>
-
-         <div class="start" @click="start">
-              开始检测
-          </div>
-        </div>
-        
+        <div class="search"></div>
+       </div> 
     </div>
-    
-    <input  type="file" id="readImage" accept="image/png, image/jpeg" class="upload">
+        
   </div>
 </template>
 
