@@ -21,8 +21,8 @@
                 <p class="denglu">登录</p>
                 <input type="text" class="zhanghao" placeholder="请输入帐号" name="" id="">
                 <input type="text" class="mima" name="" placeholder="请输入密码" id="">
-                <button class="button">登录</button>
-                <p class="zhuce">立即注册</p>
+                <button class="button" @click="fenxi">登录</button>
+                <p class="zhuce" @click="zhuce">立即注册</p>
             </div>
         </div>
     </div>
@@ -37,7 +37,13 @@ export default {
     // console.log('jquery')
   },
   methods: {
-    
+    zhuce() {
+      this.$router.push({path: '/register'})
+    },
+    fenxi () {
+      alert('登录成功！')
+      this.$router.push({path: '/fenxi'})
+    }
 }
 }
 </script>

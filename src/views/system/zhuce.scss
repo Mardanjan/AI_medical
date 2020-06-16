@@ -1,6 +1,6 @@
 .zhuce-page {
     height: 100vh;
-    background-color: cadetblue;
+    background-color: #ffffff;
     position: relative;
 
     .head {
@@ -21,27 +21,74 @@
 
         .left {
             flex: 1;
-            background-color: chartreuse;
+            background-color: #ffffff;
             min-width: 439;
 
             .content {
+
                 width: 559px;
                 height: 365px;
+                display: block;
+                text-align: center;
+
+                p {
+                    text-align: center;
+                    width: 439px;
+                    height: 30px;
+                    margin-left: 250px;
+                    
+                    margin-top: 20px;
+                    font-size:25px;
+                    font-family:Microsoft YaHei UI;
+                    font-weight:400;
+                    color:rgba(15,15,15,1);
+                }
+
+                .bbbbb {
+                    margin-left: 194px;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    .button {
+                        margin-top: 20px;
+                        width:168px;
+                        height:53px;
+                        background:rgba(9,44,91,1);
+                        line-height: 53px;
+                        font-size:25px;
+                        font-family:Microsoft YaHei UI;
+                        font-weight:400;
+                        color:rgba(255,255,255,1);
+                        border-radius: 10px;
+                    }
+                }
+                
+                
+                input {
+                    display: block;
+                    width: 439px;
+                    height: 30px;
+                    margin-left: 250px;
+                    border-radius: 4px;
+                    margin-top: 20px;
+                    text-align: center;
+                    
+                }
 
                 .zhanghao {
-                    // display: block;
+                    display: block;
                     width: 439px;
                     height: 30px;
                 }
 
                 .mima {
-                    // display: block;
+                    display: block;
                     width: 439px;
                     height: 30px;
                 }
 
                 .chongfumima {
-                    // display: block;
+                    display: block;
                     width: 439px;
                     height: 30px;
                 }
@@ -50,15 +97,25 @@
 
         .right {
             flex: 1;
-            background-color: coral;
+            background-color: #ffffff;
             min-width: 560px;
             text-align: center;
 
             .content {
+                margin-top: 20px;
                 display: inline-block;
                 width: 559px;
                 height: 365px;
                 background-color: #072145;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text {
+                    width:261px;
+                    height:59px;
+                    color: #ffffff;
+                    font-size: 56px;
+                }
             }
         }
     }
