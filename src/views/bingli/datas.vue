@@ -6,32 +6,70 @@
     <div class="title"><p>-数据中心-</p></div>
     <div class="content">
       <div class="data_area">
-        <div class="data-bar">ff</div>
-        <div class="data-bar">ff</div>
-        <div class="data-bar">ff</div>
+        <div class="data-bar"><i class="el-icon-monitor"></i>dd</div>
+        <div class="data-bar"><i class="el-icon-first-aid-kit"></i></div>
+        <div class="data-bar"><i class="el-icon-video-camera"></i></div>
        </div> 
       <div class="data_area">
-        <div class="data-bar">ff</div>
-        <div class="data-bar">ff</div>
-        <div class="data-bar">ff</div>
+      <p>fdg</p>
+      <p>fdg</p>
+      <p>fdg</p>
+      </div> 
+      <div class="data_area">
+        <div class="data-bar"><i class="el-icon-monitor"></i></div>
+        <div class="data-bar"><i class="el-icon-document-checked"></i></div>
+        <div class="data-bar"><i class="el-icon-document"></i></div>
+      </div> 
+      <div class="data_area">
+      <p>fdg</p>
+      <p>fdg</p>
+      <p>fdg</p>
       </div> 
     </div>
+
   </div>
 </template>
 
 <script>
 
 export default {
-
+  data: () => {
+    return {
+      data:[
+        {title:'sss'},
+        {title:'sss'},
+        {title:'sss'},
+        {title:'sss'},
+        {title:'sss'},
+        {title:'sss'},
+        {title:'sss'},
+      ]
+    }
   },
   created() {
     // console.log('jquery')
   },
   methods: {
-   
+   submit() {
+     this.$router.push({path: '/login'})
+   },
+   uploadfile () {
+       document.querySelector('.upload').click()
    },
    start () {
-
+       let img = document.querySelector('.upload')
+       var imgFile = new FileReader()
+       if (img.files.length <= 0) {
+           alert('请上传图片')
+           return
+       }
+       console.log(img.files)
+       imgFile.readAsDataURL(img.files[0])
+       imgFile.onload = function () {
+           var imgData = this.result
+           console.log(imgData)
+       }
+   }
   }
 }
 </script>

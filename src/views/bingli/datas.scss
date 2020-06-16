@@ -40,9 +40,9 @@
         left:50%;
         transform: translateX(-50%);
         position: absolute;
-        padding-top:50px;
 
         .data_area{
+            margin-top:54px;
             margin-left:84px;
             display:flex;
 
@@ -54,6 +54,13 @@
                 border-radius: 50%;
                 text-align: center;
                 color:white;
+                line-height: 146px;
+            }
+            p{
+                width:148px;
+                margin-left:322px;
+                margin-top:-42px;
+                text-align: center;
             }
         }
     }
