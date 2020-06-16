@@ -8,6 +8,11 @@ import ConnectUs from './components/Dialog/connectUs.vue'
 Vue.component('ConnectUs', ConnectUs)
 Vue.component('jlPopup', jlPopup)
 
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
+
+
 Vue.use(VueRouter)
 
   
@@ -43,7 +48,8 @@ const routes = [
   }, {
     path: '/login', component: () => import('./views/system/login')
   },
-  {path: '/register', component: () => import('./views/system/zhuce')}
+  {path: '/register', component: () => import('./views/system/zhuce')},
+  {path: '/fenxi', component: () => import('./views/system/fenxi')}
 ]
 
 
