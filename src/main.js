@@ -44,7 +44,11 @@ const routes = [
     path: '/login', component: () => import('./views/system/login')
   },
   {path: '/register', component: () => import('./views/system/zhuce')},
-  {path: '/bingli' , component: ()=> import('./views/bingli/bingli.vue')}
+  {path: '/bingli' , component: ()=> import('./views/bingli/bingli')},
+  {path: '/data' , component: ()=> import('./views/bingli/data')},
+  {path: '/detail' , component: ()=> import('./views/bingli/detail')},
+  {path: '/datas' , component: ()=> import('./views/bingli/datas')},
+  
 ]
 
 
