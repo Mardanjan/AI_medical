@@ -14,19 +14,15 @@
         <div class="search"><span class="el-icon-search"></span></div>
        </div> 
     </div>
-        
   </div>
 </template>
-
 <script>
 
 export default {
 
   created() {
-    // console.log('jquery')
   },
   methods: {
-   
   }
 }
 </script>

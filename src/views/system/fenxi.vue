@@ -7,7 +7,6 @@
     <div class="content">
         <div class="left">
           <div class="button" @click="uploadfile"></div>
-         
         </div>
         <div class="right">
           <div class="head">
@@ -15,14 +14,11 @@
           <el-radio v-model="radio1" label="1" border>备选项1</el-radio>
           <el-radio v-model="radio1" label="2" border>备选项2</el-radio>
         </div>
-
-         <div class="start" @click="start">
-              开始检测
+         <div class="start" @click="handleStartToCheck">
+          开始检测
           </div>
         </div>
-        
     </div>
-    
     <input  type="file" id="readImage" accept="image/png, image/jpeg" class="upload">
   </div>
 </template>
@@ -37,16 +33,12 @@ export default {
     }
   },
   created() {
-    // console.log('jquery')
   },
   methods: {
-   submit() {
-     this.$router.push({path: '/login'})
-   },
    uploadfile () {
        document.querySelector('.upload').click()
    },
-   start () {
+   handleStartToCheck () {
        let img = document.querySelector('.upload')
        var imgFile = new FileReader()
        if (img.files.length <= 0) {
@@ -56,8 +48,8 @@ export default {
        console.log(img.files)
        imgFile.readAsDataURL(img.files[0])
        imgFile.onload = function () {
-           var imgData = this.result
-           console.log(imgData)
+          var imgData = this.result
+          console.log(imgData)
        }
    }
   }

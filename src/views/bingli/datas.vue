@@ -29,13 +29,11 @@
 
   </div>
 </template>
-
 <script>
 
 export default {
   data: () => {
     return {
-<<<<<<< HEAD
       data:[
         {title:'sss'},
         {title:'sss'},
@@ -45,36 +43,11 @@ export default {
         {title:'sss'},
         {title:'sss'},
       ]
-=======
-      radio1: false,
-      radio2: false
->>>>>>> 68b0a8fc32b24631a8a7d83960b85f74f1715ef9
     }
   },
   created() {
-    // console.log('jquery')
   },
   methods: {
-   submit() {
-     this.$router.push({path: '/login'})
-   },
-   uploadfile () {
-       document.querySelector('.upload').click()
-   },
-   start () {
-       let img = document.querySelector('.upload')
-       var imgFile = new FileReader()
-       if (img.files.length <= 0) {
-           alert('请上传图片')
-           return
-       }
-       console.log(img.files)
-       imgFile.readAsDataURL(img.files[0])
-       imgFile.onload = function () {
-           var imgData = this.result
-           console.log(imgData)
-       }
-   }
   }
 }
 </script>

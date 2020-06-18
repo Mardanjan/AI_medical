@@ -23,7 +23,6 @@ export default {
     },
     data() {
         return{
-            // arr: ['index', 'index', 'index']
         }
     },
     methods: {
