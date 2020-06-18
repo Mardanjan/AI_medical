@@ -35,6 +35,7 @@
 export default {
   data: () => {
     return {
+<<<<<<< HEAD
       data:[
         {title:'sss'},
         {title:'sss'},
@@ -44,6 +45,10 @@ export default {
         {title:'sss'},
         {title:'sss'},
       ]
+=======
+      radio1: false,
+      radio2: false
+>>>>>>> 68b0a8fc32b24631a8a7d83960b85f74f1715ef9
     }
   },
   created() {
