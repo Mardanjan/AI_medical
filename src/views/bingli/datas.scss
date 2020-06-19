@@ -1,0 +1,60 @@
+.datas-page{
+    color:rgb(7,33,69);
+    top:76px;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    margin:0 auto;
+
+    .head{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 95px;
+        width: 1352px;
+        background-color:rgb(7,33,69);
+
+        .nav-bar{
+            padding-left:1036px;
+            padding-top:33px;
+            color:white;
+            display:flex;
+
+            p{
+                border: white 2px solid;
+                margin-left:20px;
+            }
+        }
+    }
+
+    .title{
+        margin-left:583px;
+       
+        p{
+            font-size: 35px;
+        }
+    }
+
+    .content{
+        width:1899px;
+        height:943px;
+        height:658px;
+        left:50%;
+        transform: translateX(-50%);
+        position: absolute;
+        padding-top:50px;
+
+        .data_area{
+            margin-left:84px;
+            display:flex;
+
+            .data-bar{
+                margin-left:322px;
+                width:148px;
+                height:146px;
+                background-color:rgb(7,33,69);
+                border-radius: 50%;
+                text-align: center;
+                color:white;
+            }
+        }
+    }
+}

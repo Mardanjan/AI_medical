@@ -1,0 +1,72 @@
+
+.bingli-page{
+    color:rgb(7,33,69);
+    top:76px;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    margin:0 auto;
+   
+    .head{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 95px;
+        width: 1352px;
+        background-color:rgb(7,33,69);
+        
+        .nav-bar{
+            padding-left:1036px;
+            padding-top:33px;
+            color:white;
+            display:flex;
+           
+            p{
+                border: white 2px solid;
+                margin-left:20px;
+            }
+        }
+    }
+
+    .title{
+        margin-left:583px;
+        
+        p{
+            font-size: 35px;
+        }
+    }
+
+    .content{
+        width:1353px;
+        left:50%;
+        transform: translateX(-50%);
+        position: absolute;
+        padding-left:30px;
+        padding-top:50px;
+        
+        .table_area{
+            display:flex;
+        }
+            
+            .table{
+                width:1106px;
+                border: 2px gray solid;
+                border-top: 1px gray solid;
+                left:50%;
+                
+                .line{
+                    display: flex;
+                    font-size: 24px;
+                }
+                p{
+                    width:50%;
+                    height:52px;
+                }
+            }
+            
+            .search{
+                width:173px;
+                height:48px;
+                background-color:rgb(7,33,69);
+                margin-left: 10px;
+            }
+    }
+}

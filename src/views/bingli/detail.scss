@@ -1,0 +1,80 @@
+.detail-page{
+    color:rgb(7,33,69);
+    top:76px;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    margin:0 auto;
+
+    .head{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 95px;
+        width: 1352px;
+        background-color:rgb(7,33,69);
+
+        .nav-bar{
+            padding-left:1036px;
+            padding-top:33px;
+            color:white;
+            display:flex;
+            p{
+                border: white 2px solid;
+                margin-left:20px;
+            }
+        }
+    }
+
+    .title{
+        margin-left:583px;
+        p{
+            font-size: 35px;
+        }
+    }
+
+    .content{
+        width:1353px;
+        height:658px;
+        left:50%;
+        transform: translateX(-50%);
+        position: absolute;
+        padding-left:155px;
+        padding-top:50px;
+
+        .data_area{
+            width:1055px;
+
+            .patient_info{
+                margin-bottom: 10px;
+                display:flex;
+                border-bottom:rgb(7,33,69) 2px solid;
+
+                p{
+                    margin-left:30px;
+                }
+
+                .last{
+                    margin-left:350px;
+                }
+            }
+
+            .detail_info{
+                margin-bottom: 10px;
+                border-bottom:rgb(7,33,69) 2px solid;
+            }
+        }
+    }
+
+    .return{
+        background-color: rgb(7,33,69);
+        position: relative;
+        width:143px;
+        height:39px;
+        text-align:center;
+        margin:300px auto;
+       
+        p{
+            color:white;
+            font-size: 24px;
+        }
+    }
+}
