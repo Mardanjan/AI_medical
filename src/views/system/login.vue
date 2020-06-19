@@ -4,7 +4,6 @@
     <div class="content">
         <div class="left">
             <div class="icon dianzhen">
-
             </div>
             <div class="c1">
                 AI轻医疗
@@ -21,8 +20,8 @@
                 <p class="denglu">登录</p>
                 <input type="text" class="zhanghao" placeholder="请输入帐号" name="" id="">
                 <input type="text" class="mima" name="" placeholder="请输入密码" id="">
-                <button class="button" @click="fenxi">登录</button>
-                <p class="zhuce" @click="zhuce">立即注册</p>
+                <button class="button" @click="handleLogin">登录</button>
+                <p class="zhuce" @click="jumpToRegisterPage">立即注册</p>
             </div>
         </div>
     </div>
@@ -31,16 +30,14 @@
 </template>
 
 <script>
-
 export default {
   created() {
-    // console.log('jquery')
   },
   methods: {
-    zhuce() {
+    jumpToRegisterPage() {
       this.$router.push({path: '/register'})
     },
-    fenxi () {
+    handleLogin () {
       alert('登录成功！')
       this.$router.push({path: '/fenxi'})
     }

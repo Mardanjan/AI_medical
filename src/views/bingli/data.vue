@@ -14,16 +14,12 @@
         <div class="search"></div>
        </div> 
     </div>
-        
   </div>
 </template>
-
 <script>
 
 export default {
-
   created() {
-    // console.log('jquery')
   },
   methods: {
    

@@ -19,12 +19,9 @@
 <script>
 
 export default {
-
   created() {
-    // console.log('jquery')
   },
   methods: {
- 
   }
 }
 </script>

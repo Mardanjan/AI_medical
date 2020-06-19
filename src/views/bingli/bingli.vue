@@ -11,22 +11,18 @@
           <div class="line"><p>张三</p><p>病历号：xxxxx</p></div>
           <div class="line"><p>张三</p><p>病历号：xxxxx</p></div>
         </div>
-        <div class="search"></div>
+        <div class="search"><span class="el-icon-search"></span></div>
        </div> 
     </div>
-        
   </div>
 </template>
-
 <script>
 
 export default {
 
   created() {
-    // console.log('jquery')
   },
   methods: {
-   
   }
 }
 </script>
