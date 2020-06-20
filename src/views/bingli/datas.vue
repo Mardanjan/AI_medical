@@ -26,7 +26,6 @@
       <p>fdg</p>
       </div> 
     </div>
-
   </div>
 </template>
 <script>

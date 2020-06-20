@@ -4,6 +4,10 @@ import App from './App.vue'
 // import '@/styles/index.css' // global css
 Vue.use(VueRouter)
 
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
+
 const routes = [
   { path: '/', component: () => import('@/views/index/index') },
   { path: '/about', component: () => import('@/views/about/index') },
