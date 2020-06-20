@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
-import '@/styles/index.css' // global css
+// import '@/styles/index.css' // global css
 Vue.use(VueRouter)
 
 const routes = [
@@ -16,6 +16,7 @@ const routes = [
   { path: '/data' , component: ()=> import('./views/bingli/data') },
   { path: '/detail' , component: ()=> import('./views/bingli/detail') },
   { path: '/datas' , component: ()=> import('./views/bingli/datas') },
+  { path: '/fenxi', component: () => import('./views/system/fenxi')}
 ]
 
 const router = new VueRouter({ routes })
