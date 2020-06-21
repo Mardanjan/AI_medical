@@ -1,43 +1,29 @@
 .fenxi-page {
     position: relative;
-    background-color: #ffffff;
-    text-align: center;
 
-    .head {
-        width:1352px;
-        height:95px;
-        background-color: #072145;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 76px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .top {
+        margin-bottom: 80px;
 
-        .div{   
-            margin: 10px;
-            width:120px;
-            height:40px;
-            font-size:24px;
-            font-family:Microsoft YaHei UI;
-            font-weight:400;
-            color:rgba(255,255,255,1);
-            line-height:40px;
-            border: 2px solid white;
+        .head {
+            height:95px;
+            margin-top: 80px;
+            text-align: center;
+            
+
+            .el-menu-demo {
+                .el-menu-item {
+                    font-size: 22px;
+                    margin: 10px;
+                }
+            }
         }
     }
 
-    .content {
-        position: absolute;
-        top: 215px;
-        left: 50%;
-        width:1200px;
-        height: 500px;
-        transform: translateX(-50%);
-        background-color: #ececec;
+    .body {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        background-color: #ffffff;
     }
-    .upload {
-        display: none;
-    }
+
+    
 }

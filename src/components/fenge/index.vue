@@ -1,12 +1,12 @@
 <template>
-<!-- 细胞计数 -->
-  <div class="xibaojishu-page"
+<!-- 细胞分割 -->
+  <div class="fenge-page"
     v-loading="loading"
     element-loading-text="拼命计算当中！请稍等"
     element-loading-spinner="el-icon-loading"
     element-loading-background="rgba(0, 0, 0, 0.8)">
     
-    <h2>细胞计数</h2>
+    <h2>膀胱癌分割</h2>
 
     <el-row :gutter="24">
       <el-col :span="12" :offset="6" class="upload-col">
@@ -28,11 +28,11 @@
     <input  style="display: none;" type="file" id="readImage" accept="image/png, image/jpeg" class="upload">
 
     <el-dialog
-      title="细胞计数结果"
+      title="膀胱癌分割结果"
       :visible.sync="dialogVisible"
-      width="30%"
+      width="50%"
       :before-close="handleClose">
-      <span>细胞数量为：{{res.num_cell}}</span>
+      <img class="img" style="width 300px; height:auto;margin:0 auto;"  v-bind:src="'data:image/jpeg;base64,' + imgUrl" alt="">
       <span slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
@@ -50,7 +50,8 @@ export default {
       radio2: false,
       loading: false,
       res: {},
-      dialogVisible: false
+      dialogVisible: false,
+      imgUrl: ''
     }
   },
   created() {
@@ -81,24 +82,24 @@ export default {
        imgFile.readAsDataURL(img.files[0])
        imgFile.onload = function () {
           var imgData = this.result
+          console.log(imgData)
           var imgArr = imgData.split(',')
-          console.log('qianzhui :', imgArr[0])
           var img = imgArr[1]
           var http = new XMLHttpRequest()
           var url = 'http://49.235.30.26:8000/'
           http.open('post', url, true)
           http.onreadystatechange = function () {
             if (http.readyState == 4 && http.status == 200) {
-              console.log('res:', http.responseText)
               _this.res = JSON.parse(http.responseText)
-              console.log(JSON.parse(http.responseText))
+              _this.imgUrl =  _this.res.new_image
               _this.dialogVisible = true
               _this.loading = false
+              _this.$forceUpdate()
             }
           }
           http.setRequestHeader("Content-type","application/x-www-form-urlencoded");  // 设置请求头
           var para = {
-            t: 'cell_counting',
+            t: 'segmentation',
             q: img
           }
           console.log(img)
